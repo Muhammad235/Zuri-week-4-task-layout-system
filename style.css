@@ -60,14 +60,13 @@ main{
 }
 
 .content{
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .content img{
-    width: 100px;
-    margin-left: -10px;
+    width: 80px;
 }
 
 .content h1, p{
@@ -77,10 +76,11 @@ main{
 
 .content h1{
     text-transform: uppercase;
+    font-family: Lexend Deca;
 }
 
 .div-btn{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .btn{
