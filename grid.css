@@ -26,16 +26,16 @@ main .box{
 }
 
 .box-a{
-    background-color: aqua;
+    background-color: #EA5021;
     grid-area: a;
     width: 450px;
     height: 220px;
 }
 
 .box-b{
-    background-color: red;
+    background-color: #FFA401;
     grid-area: b;
-    width: 200px;
+    width: 210px;
 }
 
 .box-c{
@@ -47,18 +47,13 @@ main .box{
 }
 
 .box-d{
-    background-color: green;
+    background-color: #05AA42;
     grid-area: d;
     height: 250px;
     width: 100%;
 }
 
-.top{
-    background-color: blueviolet;
+.top, .bottom{
+    background-color: #01AEFD;
     width: 370px;
-}
-
-.bottom{
-    background-color: skyblue;
-    width: 370px; 
 }
