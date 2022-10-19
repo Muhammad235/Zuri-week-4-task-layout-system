@@ -91,12 +91,39 @@ main{
    color: #01403E;
 }
 
-.btn:hover{
+.btn:active{
     border: 2px solid hsl(0, 0%, 95%);
     background-color: transparent;
     color: hsl(0, 0%, 95%);
 }
 
+@media (max-width: 830px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }  
+    
+    .left, .middle, .right{
+        width: 300px;
+        margin-inline: auto;
+    }
 
+    .right{
+        margin-bottom: 100px;
+    }
+
+    .left{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .right{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
 
 
